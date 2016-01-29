@@ -9,17 +9,17 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] A = new int[]{90, -1, 3, 45, 22, 33, 33, 2, 19, 67, 82, 49, 50, 25, 56};
 
-        System.out.printf(Arrays.toString(mergeSort(A, 0, A.length - 1)));
+        mergeSort(A, 0, A.length - 1);
+        System.out.printf(Arrays.toString(A));
     }
 
-    private static int[] mergeSort(int[] A, int left, int right) {
+    private static void mergeSort(int[] A, int left, int right) {
         if (left < right) {
             int middle = (left + right) / 2;
             mergeSort(A, left, middle);//划分左右
             mergeSort(A, middle + 1, right);
             mergeArray(A, left, middle, right);//合并数组
         }
-        return A;
     }
 
     public static void mergeArray(int A[], int left, int middle, int right) {
