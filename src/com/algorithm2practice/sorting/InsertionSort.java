@@ -3,6 +3,7 @@ package com.algorithm2practice.sorting;
 import java.util.Arrays;
 
 /**
+
  * Created by leeyou on 2016/1/29.
  */
 public class InsertionSort {
