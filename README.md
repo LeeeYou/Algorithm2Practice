@@ -9,6 +9,7 @@ Practice commonly used algorithm
 | |[InsertionSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/InsertionSort.java)|
 | |[MergeSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/MergeSort.java)|
 | |[QuickSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/QuickSort.java)|
+| |[HeapSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/HeapSort.java)|
 
 
 
