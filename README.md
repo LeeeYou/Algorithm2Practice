@@ -12,7 +12,7 @@ Practice commonly used algorithm
 | |[HeapSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/HeapSort.java)|
 | |[ShellSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/HeapSort.java)|
 
-对上面两种排序算法进行了一项简单的性能测试，随即生成5万个数值，排序的时间对比如下：
+对上面几种排序算法进行了一项简单的性能测试，随即生成5万个数值，排序的时间对比如下：
 
 |大类|小类|
 |:---|:---|
