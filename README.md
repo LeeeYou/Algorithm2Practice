@@ -16,13 +16,13 @@ Practice commonly used algorithm
 
 |大类|小类|
 |:---|:---|
-|BubbleSort | 耗时：4982|
-|InsertionSort|耗时：4690 |
-|ShellSort|耗时：2168 |
-|SelectionSort|耗时：1961 |
-|MergeSort| 耗时：10|
-|HeapSort| 耗时：9|
-|QuickSort| 耗时：8|
+|[BubbleSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/comparator_speed/BubbleSort.java) | 耗时：4982|
+|[InsertionSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/comparator_speed/InsertionSort.java)|耗时：4690 |
+|[ShellSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/comparator_speed/ShellSort.java)|耗时：2168 |
+|[SelectionSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/comparator_speed/SelectionSort.java)|耗时：1961 |
+|[MergeSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/comparator_speed/MergeSort.java)| 耗时：10|
+|[HeapSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/comparator_speed/HeapSort.java)| 耗时：9|
+|[QuickSort](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/comparator_speed/QuickSort.java)| 耗时：8|
  
 
 
