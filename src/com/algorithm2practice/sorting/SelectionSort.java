@@ -15,7 +15,7 @@ public class SelectionSort {
     private static int[] selectionSort(int[] A, int length) {
         int max = 0, maxIndex = 0;
         for (int i = 0; i < length; i++) {
-            max = A[0];
+            max = A[0];//总是默认第0个元素为最大值
             maxIndex = 0;
             for (int j = 0; j < length - i; j++) {
                 if (A[j] > max) {
