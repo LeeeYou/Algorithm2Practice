@@ -1,4 +1,4 @@
-package com.algorithm2practice.sorting.comparator_speed;
+package com.algorithm2practice.sorting.basic.comparator_speed;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class InsertionSort {
     public static void main(String[] args) {
-        int[] A = com.algorithm2practice.sorting.comparator_speed.A.getData();
+        int[] A = com.algorithm2practice.sorting.basic.comparator_speed.A.getData();
 
         long cur = System.currentTimeMillis();
         insertionSort(A, A.length);

@@ -1,21 +1,21 @@
-package com.algorithm2practice.sorting;
-
-import java.util.Arrays;
+package com.algorithm2practice.sorting.basic.comparator_speed;
 
 /**
  * Created by liuzhif on 16/1/28.
  */
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] A = new int[]{90, -1, 3, 45, 22, 33, 33, 2, 19, 67, 82, 49, 50, 25, 56};
+        int[] A = com.algorithm2practice.sorting.basic.comparator_speed.A.getData();
 
-        System.out.printf(Arrays.toString(selectionSort(A, A.length)));
+        long cur = System.currentTimeMillis();
+        selectionSort(A, A.length);
+        System.out.println("耗时：" + (System.currentTimeMillis() - cur));//耗时：1961
     }
 
     private static int[] selectionSort(int[] A, int length) {
         int max = 0, maxIndex = 0;
         for (int i = 0; i < length; i++) {
-            max = A[0];//总是默认第0个元素为最大值
+            max = A[0];
             maxIndex = 0;
             for (int j = 0; j < length - i; j++) {
                 if (A[j] > max) {

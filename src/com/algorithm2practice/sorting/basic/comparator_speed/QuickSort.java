@@ -1,4 +1,4 @@
-package com.algorithm2practice.sorting;
+package com.algorithm2practice.sorting.basic.comparator_speed;
 
 import java.util.Arrays;
 
@@ -12,9 +12,13 @@ import java.util.Arrays;
  */
 public class QuickSort {
     public static void main(String[] args) {
-        int[] A = new int[]{90, -1, 3, 45, 22, 33, 33, 2, 19, 67, 82, 49, 50, 25, 56};
+        int[] A =  com.algorithm2practice.sorting.basic.comparator_speed.A.getData();//5万个随机数
+
+        long cur = System.currentTimeMillis();
         quickSort(A, 0, A.length - 1);
-        System.out.printf(Arrays.toString(A));
+        System.out.println("耗时：" + (System.currentTimeMillis() - cur));//耗时：8
+
+        System.out.println(Arrays.toString(A));
     }
 
     private static void quickSort(int[] A, int left, int right) {

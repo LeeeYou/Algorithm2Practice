@@ -1,4 +1,4 @@
-package com.algorithm2practice.sorting;
+package com.algorithm2practice.sorting.basic;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -1,6 +1,4 @@
-package com.algorithm2practice.sorting.comparator_speed;
-
-import java.util.Arrays;
+package com.algorithm2practice.sorting.basic.comparator_speed;
 
 /**
  * Created by liuzhif on 16/1/31.

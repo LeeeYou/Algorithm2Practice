@@ -1,4 +1,4 @@
-package com.algorithm2practice.sorting.comparator_speed;
+package com.algorithm2practice.sorting.basic.comparator_speed;
 
 import java.util.Random;
 
