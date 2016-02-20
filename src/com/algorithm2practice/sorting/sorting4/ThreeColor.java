@@ -1,5 +1,7 @@
 package com.algorithm2practice.sorting.sorting4;
 
+import java.util.Arrays;
+
 /**
  * Created by leeyou on 2016/2/19.
  * <p>
@@ -10,4 +12,33 @@ package com.algorithm2practice.sorting.sorting4;
  * 返回：[0,0,1,1,2,2]
  */
 public class ThreeColor {
+
+    public static void main(String[] args) {
+        int[] A = new int[]{0, 1, 1, 0, 2, 2};
+
+        System.out.printf(Arrays.toString(sortThreeColor(A, A.length)));
+    }
+
+    public static int[] sortThreeColor(int[] A, int n) {
+        int kleft = -1, kright = n;
+        int index = 0;
+        while (index < kright) {
+            if (A[index] == 0) {
+                swap(A, ++kleft, index++);
+            } else if (A[index] == 2) {
+                swap(A, index, --kright);
+            } else {
+                index++;
+            }
+        }
+
+        return A;
+    }
+
+    public static void swap(int[] arr, int index1, int index2) {
+        int tmp = arr[index1];
+        arr[index1] = arr[index2];
+        arr[index2] = tmp;
+    }
+
 }

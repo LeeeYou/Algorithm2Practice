@@ -1,5 +1,7 @@
 package com.algorithm2practice.sorting.sorting4;
 
+import java.util.Arrays;
+
 /**
  * Created by leeyou on 2016/2/19.
  * <p>
@@ -10,4 +12,25 @@ package com.algorithm2practice.sorting.sorting4;
  * 返回：false
  */
 public class Finder {
+
+    public static void main(String[] args) {
+        int[][] A = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+        System.out.printf(findX(A, 3, 3, 2) + "");
+    }
+
+    public static boolean findX(int[][] mat, int n, int m, int x) {
+        int horizon = 0, vertical = m - 1;
+        while (horizon < n && vertical >= 0) {
+            if (mat[horizon][vertical] > x) {
+                vertical--;
+            } else if (mat[horizon][vertical] < x) {
+                horizon++;
+            } else {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
