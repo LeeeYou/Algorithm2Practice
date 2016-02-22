@@ -3,7 +3,7 @@ package com.algorithm2practice.sorting.sorting3;
 import java.util.Arrays;
 
 /**
- * Created by liuzhif on 16/2/17.
+ * Created by liuzhif on 16/2/17.重复值判断
  * <p>
  * 请设计一个高效算法，判断数组中是否有重复值。必须保证额外空间复杂度为O(1)。
  * 给定一个int数组A及它的大小n，请返回它是否有重复值。
