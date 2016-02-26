@@ -27,9 +27,20 @@ Practice commonly used algorithm
 
 
 排序目录
+
 冒泡
+
 快速
+
 插入
+
+希尔
+
+选择
+
+堆
+
+归并
 
 字符串目录
  
