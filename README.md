@@ -24,8 +24,13 @@
 * [三色排序问题](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/sorting4/ThreeColor.java)<br>
 
 <h2>2. 字符串
+### 2.1 基本练习
+* [拓扑结构相同子树](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex01/IdenticalTree.java)<br>
+* [词语变形](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex01/Transform.java)<br>
 
-
+### 2.2 进阶练习
+* [两串旋转](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex02/Rotation.java)<br>
+* [句子的逆序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex02/Reverse.java)<br>
 
 
 ---
