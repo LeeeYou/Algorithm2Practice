@@ -4,7 +4,8 @@
 <h2>1. 排序
 <h3>1.1 基本练习
 
-<h8>[冒泡排序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/basic/BubbleSort.java)<br>
+
+* [冒泡排序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/basic/BubbleSort.java)<br>
 [快速排序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/basic/QuickSort.java)<br>
 [插入排序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/basic/InsertionSort.java)<br>
 [希尔排序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/sorting/basic/HeapSort.java)<br>
