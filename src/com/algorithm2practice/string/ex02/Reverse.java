@@ -10,8 +10,46 @@ package com.algorithm2practice.string.ex02;
  * 返回："pig loves dog"
  */
 public class Reverse {
-    public String reverseSentence(String A, int n) {
-        // write code here
-        return null;
+    public static void main(String[] args){
+       System.out.println(reverseSentence("dog loves pig",13));
+       System.out.println(reverseSentence("I'm a Student.",14));
+    }
+
+    public static String reverseSentence(String A, int n) {
+        if(n<=0)
+            return null;
+
+        char[] chars = A.toCharArray();
+        reverse(chars);
+
+        StringBuilder sb = new StringBuilder();
+        String[] subStrings = String.copyValueOf(chars).split(" ");
+        int subStringsLen = subStrings.length;
+        for(int i = 0; i< subStringsLen; i++){
+            char[] subChars = subStrings[i].toCharArray();
+            reverse(subChars);
+            sb.append(String.copyValueOf(subChars));
+
+            if(i!= subStringsLen -1){
+                sb.append(" ");
+            }
+        }
+
+        return sb.toString();
+    }
+
+    public static void reverse(char[] chars){
+        int subCharsLen = chars.length;
+        int j=0;
+        while (j<subCharsLen/2){
+            swap(chars,j, subCharsLen -j-1);
+            ++j;
+        }
+    }
+
+    public static void swap(char[] chars ,int i,int j){
+        chars[i] = (char) (chars[i] ^ chars[j]);
+        chars[j] = (char) (chars[i] ^ chars[j]);
+        chars[i] = (char) (chars[i] ^ chars[j]);
     }
 }
