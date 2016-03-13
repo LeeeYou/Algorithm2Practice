@@ -17,23 +17,14 @@ public class IdenticalTree {
         return getIndexOf(t1Str, t2Str) != -1;
     }
 
-    public String serialByPre(TreeNode head) {
-        if (head == null) {
-            return "#!";
-        }
-        String res = head.val + "!";
-        res += serialByPre(head.left);
-        res += serialByPre(head.right);
-        return res;
-    }
-
-    // KMP
-    public int getIndexOf(String s, String m) {
+    //KMP
+    private int getIndexOf(String s, String m) {
         if (s == null || m == null || m.length() < 1 || s.length() < m.length()) {
             return -1;
         }
         char[] ss = s.toCharArray();
         char[] ms = m.toCharArray();
+
         int[] nextArr = getNextArray(ms);
         int index = 0;
         int mi = 0;
@@ -50,7 +41,7 @@ public class IdenticalTree {
         return mi == ms.length ? index - mi : -1;
     }
 
-    public int[] getNextArray(char[] ms) {
+    private static int[] getNextArray(char[] ms) {
         if (ms.length == 1) {
             return new int[]{-1};
         }
@@ -69,6 +60,17 @@ public class IdenticalTree {
             }
         }
         return nextArr;
+    }
+
+    private String serialByPre(TreeNode head) {
+        if (head == null) {
+            return "#!";
+        }
+
+        String res = head.val + "!";
+        res += serialByPre(head.left);
+        res += serialByPre(head.right);
+        return res;
     }
 
     class TreeNode {
