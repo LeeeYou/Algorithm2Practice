@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c32797-4f4d-4143-ad8e-85f597af9129" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/algorithm2practice/string/ex02/Reverse.java" afterPath="$PROJECT_DIR$/src/com/algorithm2practice/string/ex02/Reverse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Algorithm2Practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Reverse.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Reverse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/algorithm2practice/string/ex02/Reverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.110497236">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="44" />
+            <state vertical-scroll-proportion="-21.25">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22018349">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -61,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/com/algorithm2practice/string/ex02/chkRotation.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm2practice/string/ex02/Rotation.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm2practice/string/ex02/Reverse.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -687,8 +699,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm2practice/string/ex02/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.110497236">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="44" />
+        <state vertical-scroll-proportion="-21.25">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22018349">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
