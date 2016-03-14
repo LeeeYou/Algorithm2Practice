@@ -10,8 +10,37 @@ package com.algorithm2practice.string.ex02;
  * 返回："DEABC"
  */
 public class Translation {
-    public String stringTranslation(String A, int n, int len) {
-        // write code here
-        return null;
+
+    public static void main(String[] args) {
+        System.out.println(String.valueOf(stringTranslation("sostupid", 8, 2)));
+        System.out.println(String.valueOf(stringTranslation("WQ", 2, 1)));
     }
+
+    public static String stringTranslation(String A, int n, int len) {
+        if (n == 1)
+            return A;
+
+        if (len <= 0 || len > n - 1)
+            return A;
+
+        char[] chars = A.toCharArray();
+
+        reverse(chars, 0, len - 1);
+        reverse(chars, len, n - 1);
+        reverse(chars, 0, n - 1);
+
+        return String.valueOf(chars);
+    }
+
+    public static void reverse(char[] chas, int start, int end) {
+        char tmp;
+        while (start < end) {
+            tmp = chas[start];
+            chas[start] = chas[end];
+            chas[end] = tmp;
+            start++;
+            end--;
+        }
+    }
+
 }
