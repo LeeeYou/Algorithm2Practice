@@ -1,5 +1,8 @@
 package com.algorithm2practice.string.ex02;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * Created by LeeeYou on 2016/3/13. 拼接最小字典序练习题
  * <p>
@@ -10,8 +13,28 @@ package com.algorithm2practice.string.ex02;
  * "abcde"
  */
 public class Prior {
-    public String findSmallest(String[] strs, int n) {
-        // write code here
-        return null;
+    public static void main(String[] args){
+        String[] s = {"ac","aa","ee","ad","aa"};
+        System.out.println(findSmallest(s,5));
+    }
+
+    public static class MyComparator implements Comparator<String> {
+        @Override
+        public int compare(String s1, String s2) {
+            return (s1 + s2).compareTo(s2 + s1);
+        }
+    }
+
+    public static String findSmallest(String[] strs, int n) {
+        if (strs == null || strs.length <= 0)
+            return null;
+
+        Arrays.sort(strs, new MyComparator());
+        StringBuilder sb = new StringBuilder();
+        for (String str : strs) {
+            sb.append(str);
+        }
+
+        return sb.toString();
     }
 }
