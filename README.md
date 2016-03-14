@@ -31,7 +31,8 @@
 ### 2.2 进阶练习
 * [两串旋转](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex02/Rotation.java)<br>
 * [句子的逆序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex02/Reverse.java)<br>
-
+* [字符串移位](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex02/Translation.java)
+* [拼接最小字典序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex02/Prior.java)
 
 ---
 
