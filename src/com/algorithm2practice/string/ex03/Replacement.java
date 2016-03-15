@@ -15,7 +15,7 @@ public class Replacement {
 
     public String replaceSpace(String iniString, int length) {
         // write code here
-        return null;
+        return iniString.replace(" ","%20");
     }
 
 }
