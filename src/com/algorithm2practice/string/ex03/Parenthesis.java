@@ -18,8 +18,22 @@ package com.algorithm2practice.string.ex03;
 public class Parenthesis {
 
     public boolean chkParenthesis(String A, int n) {
-        // write code here
-        return false;
+        char[] chars = A.toCharArray();
+        int num = 0;
+        for (char c : chars) {
+            if (c == '(') {
+                num++;
+            }
+            if (c == ')' && --num < 0) {
+                return false;
+            }
+
+            if (c != '(' && c != ')') {
+                return false;
+            }
+        }
+
+        return num == 0;
     }
 
 }
