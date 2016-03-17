@@ -14,8 +14,18 @@ package com.algorithm2practice.string.ex03;
 public class Replacement {
 
     public String replaceSpace(String iniString, int length) {
-        // write code here
-        return null;
+        StringBuilder sb = new StringBuilder();
+        char[] chars = iniString.toCharArray();
+        for (int i = chars.length - 1; i >= 0; i--) {
+            if (String.valueOf(chars[i]).equals(" ")) {
+                sb.insert(0, "%20");
+            } else {
+                sb.insert(0, chars[i]);
+            }
+        }
+
+        return sb.toString();
+//        return iniString.replace(" ", "%20");
     }
 
 }
