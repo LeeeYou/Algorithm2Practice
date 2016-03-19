@@ -1,7 +1,5 @@
 package com.algorithm2practice.stack_queue.ex03;
 
-import com.sun.org.apache.bcel.internal.generic.ARRAYLENGTH;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 
@@ -29,7 +27,13 @@ public class SlideWindow {
         if (n <= 0 || w == 1)
             return arr;
 
-        LinkedList<Integer> qmax = new LinkedList<>();
+        /**
+         *假设当前数为arr[i],放入规则如下：
+         * 1、如果qmax为空，则直接把下标i放入到qmax中
+         * 2、如果qmax不为空，取出当前qmax队尾存放的下表j。如果arr[j]>arr[i],直接把下标i放到qmax队尾
+         * 3、如果arr[j]<=arr[i],则一直从qmax弹出下标，知道某个下标在qmax中对应的值大于arr[i]为止，，把i放入qmax队尾
+         */
+        LinkedList<Integer> qmax = new LinkedList<>();//双端队列，存放的是数组中的下标值
         int[] result = new int[n - w + 1];
         int resultIndex = 0;
         for (int i = 0; i < n; i++) {
@@ -40,7 +44,7 @@ public class SlideWindow {
             qmax.addLast(i);
 
             if (qmax.peekFirst() == i - w) {//检查队头的下标是否过期
-                qmax.pollFirst();//如过期，则将队头下标弹出
+                qmax.pollFirst();//如过期，则弹出队头下标
             }
 
             if (i >= w - 1) {
