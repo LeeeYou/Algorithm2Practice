@@ -49,7 +49,7 @@ public class StackReverse {
             int last = get(stack);
             stack.push(last);
             return result;
-
         }
     }
+
 }
