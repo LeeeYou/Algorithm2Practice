@@ -26,7 +26,6 @@ public class TwoStack {
     public static int[] twoStack(int[] ope, int n) {
         Vector<Integer> result = new Vector<>();
         int temp;
-        int index = 0;
         for (int i = 0; i < n; i++) {
             temp = ope[i];
             if (temp > 0) {
