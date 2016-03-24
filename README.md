@@ -34,6 +34,24 @@
 * [字符串移位](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex02/Translation.java)
 * [拼接最小字典序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex02/Prior.java)
 
+### 2.3 进阶练习
+* [空格替换](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex03/Replacement.java)<br>
+* [合法括号序列判断](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex03/Parenthesis.java)<br>
+* [最长无重复字符子串](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/string/ex03/DistinctSubstring.java)
+
+<h2>3. 栈和队列
+### 3.1 基本练习
+* [可查询最值的栈](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/stack_queue/ex01/Solution.java)<br>
+
+### 3.2 进阶练习
+* [双栈排序](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/stack_queue/ex02/TwoStacks.java)<br>
+* [双栈队列](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/stack_queue/ex02/TwoStack.java)<br>
+* [栈的反转](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/stack_queue/ex02/StackReverse.java)
+
+### 3.3 进阶练习
+* [滑动窗口](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/stack_queue/ex03/SlideWindow.java)<br>
+* [构造一棵MaxTree](https://github.com/LeeeYou/Algorithm2Practice/blob/master/src/com/algorithm2practice/stack_queue/ex03/MaxTree.java)<br>
+
 ---
 
 ---
